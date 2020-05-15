@@ -85,7 +85,7 @@ if __name__ == '__main__':
             else :
                 driver.find_element_by_xpath('//button[@aria-label="Like"]').click()
 
-            sleep(0.2)
+            sleep(0.5)
 
         # Handling some pop up that blocks clicking on the button
         except ElementClickInterceptedException:
